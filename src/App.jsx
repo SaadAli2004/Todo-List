@@ -1,15 +1,7 @@
 import { useState } from 'react'
 import "@/index.css";
 function ToDoList() {
-  const [tasks, setTasks] = useState([
-    "Make food",
-    "Eat Snacks",
-    "Lunch",
-    "Some stuff",
-    "blabla",
-    "hey bruh",
-    "Idk anymore",
-  ]);
+  const [tasks, setTasks] = useState([]);
   const [newTask, setNewTask] = useState("");
 
   const [editingIndex, setEditingIndex] = useState(null);

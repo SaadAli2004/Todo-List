@@ -4,7 +4,6 @@ import ToDoList from './App'
 import "@/index.css";
 createRoot(document.getElementById('root')).render(
     <div>
-
         <ToDoList/>
     </div>
 )
