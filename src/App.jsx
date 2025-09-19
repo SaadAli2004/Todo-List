@@ -101,7 +101,7 @@ function ToDoList() {
                 </button>
               </div>
             ) : (
-              <div className="gap-1 flex items-center border">
+              <div className="gap-1 flex items-center">
                 <span className="h-6 flex items-center bg-neutral-800 p-2 rounded-4xl md:text-2xl md:h-8 relative">{index + 1}</span>
                 <li
                   className=" bg-gray-800 w-11/12 md:text-xl rounded-lg p-2"
